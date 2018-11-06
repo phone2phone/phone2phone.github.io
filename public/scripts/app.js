@@ -19,7 +19,7 @@ $(".getData").click(function(e) {
     },
 
     success:function(data) {
-        $('.append_data').append(Math.floor(data.USD_MMK)+ 'ကျပ်');
+        $('.append_data').append(Math.floor(data.USD_MMK)+ ' ကျပ်');
     },
     complete: function(){
       $('#img').hide();
